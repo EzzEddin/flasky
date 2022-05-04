@@ -27,6 +27,10 @@ def make_shell_context():
                 Permission=Permission, Post=Post, Comment=Comment)
 
 
+with app.app_context():
+    db.create_all()
+
+
 @app.cli.command()
 @click.option('--coverage/--no-coverage', default=False,
               help='Run tests under code coverage.')
