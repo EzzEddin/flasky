@@ -10,7 +10,7 @@ chardet==3.0.4
 charset-normalizer==2.0.12
 click==6.7
 coverage==4.4.1
-dataclasses==0.8
+dataclasses==0.6
 dominate==2.3.1
 durationpy==0.5
 Faker==0.7.18
@@ -39,7 +39,6 @@ kappa==0.6.0
 Mako==1.0.7
 Markdown==2.6.8
 MarkupSafe==1.1.1
-pkg_resources==0.0.0
 placebo==0.9.0
 Pygments==2.2.0
 PyMySQL==1.0.2
